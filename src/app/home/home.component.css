@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden; 
+}
+
+/* Navbar Section */
+.nav-bg {
+    background-color: #003E59;
+}
+
+.logo {
+    width: 87px;
+    height: 40px;
+}
+
+.nav-link {
+    font-family: Lora;
+    font-size: 14px;
+    font-weight: 400;
+    color: #EEEEEE;
+    margin: 10px 40px;
+}
+
+.nav-item .active {
+    font-family: Lora;
+    font-size: 14px;
+    font-weight: 600;
+    color: #E3BD86;
+}
+
+/* Carousel Section */
+.carousel-img {
+    width: 100%;
+}
+
+/* Products Section */
+.img-fluid {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.name{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.space {
+    margin: 60px 0 90px;
+}
+
+.scrollable-container {
+    display: flex;
+    overflow-x: hidden;
+    white-space: nowrap;
+    padding: 10px;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.assured {
+    display: inline-block;
+    white-space: normal;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.assured_para {
+    font-family: Lora;
+    font-size: 14px;
+    font-style: italic;
+    color: #333333;
+}
+
+.assured img {
+    margin-bottom: 10px;
+}
+
+.assured_container {
+    margin-top: 54px;
+}
+
+.Rectangle {
+    width: 282px;
+}
+
+.Rectangle1,
+.Rectangle2 {
+    width: 282px;
+    margin-bottom: 20px;
+}
+
+.text {
+    padding: 3%;
+}
+
+.about {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    color: #E3BD86;
+}
+
+.world {
+    font-family: Lora;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.finest,
+.our {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.con-box {
+    width: 52%;
+    margin: 0 auto;
+}
+
+.contact {
+    font-family: Lora;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.design {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contact-icons {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.number {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    color: #111111;
+    text-align: center;
+}
+
+.Support {
+    font-family: Lora;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    color: #555555;
+}
+
+.quick {
+    font-family: Lora;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    color: #555555;
+}
+
+/* Footer Section */
+footer {
+    padding: 3%;
+    background-color: #003E59;
+}
+
+.footer-img {
+    width: 91px;
+    height: 42px;
+}
+
+.footer-main {
+    font-family: Lora;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+}
+
+.follow {
+    font-family: Lora;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.footer-icons {
+    height: 24px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.tech1,
+.tech2 {
+    font-family: Lora;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    color: #FFFFFF;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.payment-img {
+    display: flex;
+    height: 20px;
+    margin-right: 6px;
+}
+
+.tech2 {
+    float: right;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .logo {
+        width: 87px;
+        height: 40px;
+        /* left: 0; This seems unnecessary */
+    }
+
+    .carousel-img {
+        height: 200px;
+    }
+
+    .img {
+        width: 140px;
+        height: 130px;
+    }
+
+
+    .icons {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icon-name {
+        font-size: 10px;
+    }
+
+    .wrappermp img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .Rectangle,
+    .Rectangle1,
+    .Rectangle2 {
+        width: 282px;
+        margin-bottom: 10px;
+    }
+
+    .con-box {
+        width: 100%;
+    }
+
+    .world {
+        font-size: 25px;
+    }
+
+    .payment-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tech2 {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .footer-icons {
+        column-gap: 5px;
+        height: 20px;
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .img {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 20px;
+        border-radius: 50%;
+    }
+
+    .scrollable-container {
+        overflow-x: auto;
+    }
+
+    .Rectangle,
+    .Rectangle1,
+    .Rectangle2 {
+        width: 282px; /* Make images responsive */
+        max-width: 100%;
+        display: block;
+        margin-bottom: 20px; /* Add spacing between images */
+    }
+
+    .con-box {
+        width: 78%;
+        margin: 0 auto;
+    }
+
+    .payment-img {
+        display: flex;
+        height: 15px;
+        margin-top: 3px;
+    }
+}
+
+
+
+/* Media query for screen width 768px or less */
+@media (max-width: 1024px) {
+    .scrollable-container {
+        overflow-x: auto; 
+    }
+}
+/* Media query for screen width 1440px or more */
+@media (min-width: 1440px) {
+    .scrollable-container {
+        justify-content: space-between; 
+    }
+
+    .assured {
+        flex: 1 1 auto; 
+        max-width: 20%; 
+    }
+}
