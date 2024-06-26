@@ -159,6 +159,10 @@ html, body {
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+}
+
 .Support {
     font-family: Lora;
     font-size: 12px;
